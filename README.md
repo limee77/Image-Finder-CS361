@@ -1,7 +1,5 @@
 **Image Finder Microservice<br/>**
 
-**Author: Liam G<br/>**
-
 **A local Python microservice using ZeroMQ. The service provides random images from categories (currently 'cat' and 'dog'), allowing the user to save images to a history folder, list saved images, delete specified images, and clear history.**
 
 **The image-service runs as a backend microservice, all commands are sent from the UI using structured messages.**
@@ -48,6 +46,7 @@ Successful - \
 
 Error - \
 `{ "status": "error", "message": "Folder not found" }`
+
 
 
 
